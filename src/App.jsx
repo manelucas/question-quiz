@@ -1,12 +1,14 @@
-import "./App.css";
+import React from "react";
+import Questions from "./components/Questions/Questions";
 import Routes from "./containers/Routes";
 
-function App() {
+const App = () => {
   return (
     <div>
+      <Questions />
       <Routes />
     </div>
   );
-}
+};
 
 export default App;
